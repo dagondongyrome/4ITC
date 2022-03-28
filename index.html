@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content=" Cards" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="GeeksBody">
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<section id="main">
+
+
+
+</section>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+  function Deal(){
+    alert('Deal');
+    var val1=parseInt($('#random_1 >b').html());
+    var val2=parseInt($('#random_2 >b').html());
+    alert(val1);
+    alert(val2);
+    if (val1!=val2){
+            handleClick();
+
+      alert(''); 
+
+    }
+
+  }
+</script>
+</html>
